@@ -22,7 +22,7 @@ public class GSystem : GSystemBase
 		StartCoroutine(base.IEnumerator_EntryPoint());
 		//loading
 		yield return new WaitUntil(() => isInitGameService);
-
+		GUIManager.Instance.ShowGUI(GUIName.UIMainMenuHandler);
 		//do your logic here
 		//Debug.Log("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
 	}

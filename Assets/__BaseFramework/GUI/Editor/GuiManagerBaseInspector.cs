@@ -70,7 +70,7 @@ public class GUIManagerBaseInspector : Editor
 
         GUILayout.Label("Build GUI", EditorStyles.largeLabel);
 
-        myScript.destPath = EditorGUILayout.TextField("Dest Path", myScript.destPath);
+        //myScript.destPath = EditorGUILayout.TextField("Dest Path", myScript.destPath);
 
         GUILayout.Space(20f);
 

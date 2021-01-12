@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 
-public class UIHomeHandler : GUIHandlerBase
+public class UIMainMenuHandler : GUIHandlerBase
 {
 	// Use this for initialization
 	void Start () {

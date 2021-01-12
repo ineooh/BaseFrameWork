@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 
-public class UIHome : GUIBase
+public class UIMainMenu : GUIBase
 {
 	public override bool Show(params object[] @parameter)
 	{

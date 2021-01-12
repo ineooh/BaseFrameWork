@@ -17,14 +17,14 @@ public class GSystem : GSystemBase
 
 	public override IEnumerator IEnumerator_EntryPoint()
 	{
-		Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+		//Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
 
 		StartCoroutine(base.IEnumerator_EntryPoint());
 		//loading
 		yield return new WaitUntil(() => isInitGameService);
 
 		//do your logic here
-		Debug.Log("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
+		//Debug.Log("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
 	}
 }
 

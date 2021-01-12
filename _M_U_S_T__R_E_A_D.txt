@@ -1,0 +1,2 @@
+to able to run project => IMPORT package Firebase_x86_DLLs.unitypackage in project folder
+https://www.dropbox.com/s/lsbpqcxypyf5vrm/Firebase_x86_DLLs.unitypackage?dl=0

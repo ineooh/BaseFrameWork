@@ -2,28 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-//using GFramework;
-public class GSystemBase : SingletonMonoPersistent< GSystemBase>
+
+
+public class GSystemBase : SingletonMonoPersistent<GSystemBase>
 {
     public static UserDataBase userData;
     public static string _userDataKey = "UserData_[YourGameName]";
+    public static bool isInitGameService = false;
     // Start is called before the first frame update
-    public override void Awake  ()
+    public override void Awake()
     {
         base.Awake();
     }
-	public virtual void Start()
-	{
+    public virtual void Start()
+    {
         LoadUserData();
         StartCoroutine(IEnumerator_EntryPoint());
     }
 
     public virtual IEnumerator IEnumerator_EntryPoint()
-	{
-        
+    {
         yield return new WaitForEndOfFrame();
-        //SoundManager.Instance.Load();
-        //yield return new WaitForEndOfFrame();
+        yield return new WaitUntil(() => GameInitialManager.Instance.isInitial);
+        isInitGameService = true;
     }
 
     public static void LoadUserData()

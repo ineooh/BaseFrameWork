@@ -10,16 +10,22 @@ public class GSystem : GSystemBase
 	{
 		_userDataKey = userDataKey;
 		LoadUserData();
+
 		StartCoroutine(IEnumerator_EntryPoint());
 
 	}
 
 	public override IEnumerator IEnumerator_EntryPoint()
 	{
-		//loading
-		yield return new WaitForEndOfFrame();
-		//do your logic here
+		Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
 
+		StartCoroutine(base.IEnumerator_EntryPoint());
+		//loading
+		yield return new WaitUntil(() => isInitGameService);
+
+		//do your logic here
+		Debug.Log("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB");
 	}
 }
+
 

@@ -1,0 +1,16 @@
+{
+    "name": "GUIEditor",
+    "references": [
+        "GUID:38263806bb9b93d4dab525e875a6d0b3",
+        "GUID:5ff35f59482952342837b76974731433"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

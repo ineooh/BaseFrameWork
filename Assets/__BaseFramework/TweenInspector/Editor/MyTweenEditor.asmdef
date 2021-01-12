@@ -1,0 +1,18 @@
+{
+    "name": "MyTweenEditor",
+    "references": [
+        "GUID:4e0eba0dd7006da478cf86a969ee09f8"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Android",
+        "iOS"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

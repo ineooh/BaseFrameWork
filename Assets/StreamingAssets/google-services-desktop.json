@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "499538641152",
+    "project_id": "baseframework-18c33",
+    "storage_bucket": "baseframework-18c33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499538641152:android:14667fc96a9b1c0244b3e5",
+        "android_client_info": {
+          "package_name": "com.studio.BaseFrameWork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499538641152-07hkr1h9288nn6jmfhl9bua5t6vbn6bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5mPsXvX6wM1qheSK52E9Xd4DVWZd8mac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499538641152-07hkr1h9288nn6jmfhl9bua5t6vbn6bp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "499538641152-a7l3php21eeetvng607a3bp962apjd2e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.studio.BaseFrameWork"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

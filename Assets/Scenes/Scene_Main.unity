@@ -166,6 +166,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &448457961 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9097523607483728277, guid: d9d66b9178f56ea4b90d4db1ad15004d, type: 3}
+  m_PrefabInstance: {fileID: 9097523607578783100}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc5a8b46591ce740a8288c4f2ce3f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1119309650 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9097523608691008046, guid: d9d66b9178f56ea4b90d4db1ad15004d, type: 3}
+  m_PrefabInstance: {fileID: 9097523607578783100}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 293092333fb7fff408ab263d55ec7adf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1399841789 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9097523608394747521, guid: d9d66b9178f56ea4b90d4db1ad15004d, type: 3}
+  m_PrefabInstance: {fileID: 9097523607578783100}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ede09eff6414e4297311cf564d3f3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5411321715342474540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -230,6 +263,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9097523606711575512, guid: d9d66b9178f56ea4b90d4db1ad15004d, type: 3}
+      propertyPath: listHandler.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097523606711575512, guid: d9d66b9178f56ea4b90d4db1ad15004d, type: 3}
+      propertyPath: listHandler.Array.data[0]
+      value: 
+      objectReference: {fileID: 1399841789}
+    - target: {fileID: 9097523606711575512, guid: d9d66b9178f56ea4b90d4db1ad15004d, type: 3}
+      propertyPath: listHandler.Array.data[1]
+      value: 
+      objectReference: {fileID: 448457961}
+    - target: {fileID: 9097523606711575512, guid: d9d66b9178f56ea4b90d4db1ad15004d, type: 3}
+      propertyPath: listHandler.Array.data[2]
+      value: 
+      objectReference: {fileID: 1119309650}
     - target: {fileID: 9097523606711575513, guid: d9d66b9178f56ea4b90d4db1ad15004d, type: 3}
       propertyPath: m_RootOrder
       value: 1

@@ -1,16 +1,16 @@
 {
-  "ironsrc_android_key": "b73a6595",
+  "ironsrc_android_key": "e6ec9e39",
   "ironsrc_ios_key": "b28b3ad5",
   "is_banner_active": true,
   "is_intertitial_reward_active": false,
   
   "enable_appsflyer": true,
-  "appsflyer_dev_key": "nooRvfQi6Eqc5pzScifXxV",
-  "appsflyer_ios_itune_app_id": "1495142212",
+  "appsflyer_dev_key": "Gio8zFFVzAZJGr9sbHXoVb",
+  "appsflyer_ios_itune_app_id": "",
 
   "enable_log_analytics": true,
-  "ios_team_developer_id": "VB9LPSKB3A",
+  "ios_team_developer_id": "",
   "subcription_product_ids" :  [
-    "com.gapo.beatsaber.sub.weekly"
+   
   ]
 }

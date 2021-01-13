@@ -5,7 +5,7 @@ using UnityEngine;
 using Facebook.Unity;
 using Facebook.MiniJSON;
 //using Newtonsoft.Json;
-	[Serializable]
+[Serializable]
     public class FBFriend
     {
         public string id;

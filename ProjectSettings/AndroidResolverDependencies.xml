@@ -21,6 +21,8 @@
     <package>com.google.firebase:firebase-common:19.3.1</package>
     <package>com.google.firebase:firebase-config:20.0.0</package>
     <package>com.google.firebase:firebase-config-unity:7.0.2</package>
+    <package>com.google.firebase:firebase-messaging:21.0.0</package>
+    <package>com.google.firebase:firebase-messaging-unity:7.0.2</package>
     <package>com.ironsource.sdk:mediationsdk:7.0.4.1</package>
     <package>com.parse.bolts:bolts-android:1.4.0</package>
   </packages>
@@ -31,6 +33,8 @@
     <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-app-unity/7.0.2/firebase-app-unity-7.0.2.pom</file>
     <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-config-unity/7.0.2/firebase-config-unity-7.0.2.aar</file>
     <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-config-unity/7.0.2/firebase-config-unity-7.0.2.pom</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-messaging-unity/7.0.2/firebase-messaging-unity-7.0.2.aar</file>
+    <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-messaging-unity/7.0.2/firebase-messaging-unity-7.0.2.pom</file>
   </files>
   <settings>
     <setting name="androidAbis" value="armeabi-v7a" />

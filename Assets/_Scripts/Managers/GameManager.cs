@@ -31,7 +31,7 @@ public class GameManager : SingletonMono<GameManager> {
         }
         FightManager.Instance.Startup();
         PrepareLevel(level, stage);
-        if (GlobalManager.Instance.inLevel) {
+        if (GlobalPrefab.Instance.inLevel) {
             startupPanel.SetActive(false);
             dragToAimPanel.SetActive(true);
             scoreboardPanel.SetActive(true);
@@ -170,7 +170,7 @@ public class GameManager : SingletonMono<GameManager> {
         GSystem.SaveUserData();
 
         int mapIndex = ((level - 1) * 4 + (stage - 1)) % 5 + 1;
-        GlobalManager.Instance.inLevel = true;
+        GlobalPrefab.Instance.inLevel = true;
         SceneManager.LoadScene("Gameplay" + mapIndex);
         //PrepareLevel(level, stage);
         //StartLevel(level, stage);

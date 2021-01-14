@@ -21,7 +21,7 @@ public class UIManager : SingletonMono<UIManager> {
         if (stage == 4)
             nameStr = "Player 3";
         opponentNameText.text = nameStr;
-        opponentFlagImg.sprite = GlobalManager.Instance.opponentFlagSprites[Random.Range(0, GlobalManager.Instance.opponentFlagSprites.Length)];
+        opponentFlagImg.sprite = GlobalPrefab.Instance.opponentFlagSprites[Random.Range(0, GlobalPrefab.Instance.opponentFlagSprites.Length)];
 
     }
 

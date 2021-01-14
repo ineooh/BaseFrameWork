@@ -22,6 +22,9 @@ public class UserData : UserDataBase {
     public int level;
     public int stage;
 
+    /// <summary>
+    /// Indices of equipped items
+    /// </summary>
     public int[] itemIndices;
 
     public static int weaponCount = 15, shieldCount = 16, hatCount = 19, skinCount = 20 ;

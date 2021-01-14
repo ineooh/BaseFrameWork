@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShopManager : MonoBehaviour {
+public class ShopManager : SingletonMono<ShopManager> {
 
     private int shopIndex;
     private int[] shopPageIndices;
@@ -119,6 +119,11 @@ public class ShopManager : MonoBehaviour {
         itemSelected[shopIndex].gameObject.SetActive(true);
         itemSelected[shopIndex].SetParent(itemGrids[shopIndex].GetChild(shopPageIndices[shopIndex]).GetChild(itemIndex % 12));
         itemSelected[shopIndex].localPosition = Vector2.zero;
+
+        if (shopIndex == 3)
+            ShopModel.Instance.ChangeSkin(itemIndex);
+        else
+            ShopModel.Instance.EquipItem(shopIndex, itemIndex);
     }
 
 }

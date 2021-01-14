@@ -1,7 +1,9 @@
-﻿
+﻿using System;
 using UnityEngine;
 //using GFramework;
-public class UserDataBase : MonoBehaviour
+
+[Serializable]
+public class UserDataBase
 {
     private static string saveName = "StorageData";
 
@@ -53,7 +55,7 @@ public class UserDataBase : MonoBehaviour
             //Debug.LogError("sJSonData Load: " + sJSonData);
             return UserDataBase.FromJSonString<T>(sJSonData);
         }
-
+        Debug.Log("Return null");
         return null;
     }
 

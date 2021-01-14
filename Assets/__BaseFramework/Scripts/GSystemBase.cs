@@ -6,17 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class GSystemBase : SingletonMonoPersistent<GSystemBase>
 {
-    public static UserDataBase userData;
-    public static string _userDataKey = "UserData_[YourGameName]";
+    public static UserData userData;
+    public static string _userDataKey = "UserData_[YourProjectName]";
     public static bool isInitGameService = false;
     // Start is called before the first frame update
     public override void Awake()
     {
         base.Awake();
+        LoadUserData();
     }
     public virtual void Start()
     {
-        LoadUserData();
         StartCoroutine(IEnumerator_EntryPoint());
     }
 
@@ -29,10 +29,10 @@ public class GSystemBase : SingletonMonoPersistent<GSystemBase>
 
     public static void LoadUserData()
     {
-        userData = UserDataBase.LoadData<UserDataBase>(_userDataKey);
+        userData = UserDataBase.LoadData<UserData>(_userDataKey);
         if (userData == null)
         {
-            userData = new UserDataBase();
+            userData = new UserData();
         }
     }
 
@@ -40,8 +40,9 @@ public class GSystemBase : SingletonMonoPersistent<GSystemBase>
     {
         if (userData != null)
         {
-            userData.SaveData<UserDataBase>(_userDataKey);
+            userData.SaveData<UserData>(_userDataKey);
         }
+
     }
 
 }

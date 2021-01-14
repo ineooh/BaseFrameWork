@@ -9,4 +9,6 @@ public class GlobalPrefab : SingletonMonoPersistent<GlobalPrefab> {
 
     public GameObject[] weaponPrefabs, shieldPrefabs, hatPrefabs, skinPrefabs;
 
+    public Mesh[] skinMeshes;
+
 }

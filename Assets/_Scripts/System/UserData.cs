@@ -39,9 +39,9 @@ public class UserData : UserDataBase {
         Money = 0;
         level = 1;
         stage = 1;
-        itemIndices = new int[] { -1, -1, -1, -1 };
+        itemIndices = new int[] { -1, -1, -1, 0 };      // no items, default skin
 
-        itemsProgress = new int[4][] { new int[15], new int[16], new int[19], new int[24] };
+        itemsProgress = new int[4][] { new int[15], new int[16], new int[19], new int[23] };
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < itemsProgress[i].Length; j++) {

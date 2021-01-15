@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ShopManager : SingletonMono<ShopManager> {
@@ -124,6 +125,10 @@ public class ShopManager : SingletonMono<ShopManager> {
             ShopModel.Instance.ChangeSkin(itemIndex);
         else
             ShopModel.Instance.EquipItem(shopIndex, itemIndex);
+    }
+
+    public void BackToGame() {
+        SceneManager.LoadScene("Gameplay1");
     }
 
 }

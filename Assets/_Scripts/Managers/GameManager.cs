@@ -377,6 +377,12 @@ public class GameManager : SingletonMono<GameManager> {
 
     #endregion
 
+
+
+    public void GoToShop() {
+        SceneManager.LoadScene("Shop");
+    }
+
     public void Test() {
 
     }

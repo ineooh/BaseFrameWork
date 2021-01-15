@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 59c06b42d4fc17644ba535ed31e47854
 ModelImporter:
-  serializedVersion: 19301
+  serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: -6201834280730877740
@@ -55,6 +55,7 @@ ModelImporter:
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
@@ -64,6 +65,9 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -128,8 +132,7 @@ ModelImporter:
     - name: mixamorig:HeadTop_End_end
       parentName: mixamorig:HeadTop_End
       position: {x: -5.12701e-15, y: 0.15781407, z: -0.0000000020122386}
-      rotation: {x: -0.000000014901159, y: 0.0000000011519886, z: -2.1674543e-10,
-        w: 1}
+      rotation: {x: -0.000000014901159, y: 0.0000000011519886, z: -2.1674543e-10, w: 1}
       scale: {x: 1, y: 0.9999998, z: 1}
     - name: mixamorig:HeadTop_End_end_end
       parentName: mixamorig:HeadTop_End_end
@@ -144,8 +147,7 @@ ModelImporter:
     - name: mixamorig:LeftEye_end
       parentName: mixamorig:LeftEye
       position: {x: 0.000000003137431, y: 0.1578141, z: 0.0000000017220904}
-      rotation: {x: -0.000000014901159, y: 1.13686824e-13, z: -0.000000004464502,
-        w: 1}
+      rotation: {x: -0.000000014901159, y: 1.13686824e-13, z: -0.000000004464502, w: 1}
       scale: {x: 1, y: 0.9999998, z: 1}
     - name: mixamorig:LeftEye_end_end
       parentName: mixamorig:LeftEye_end
@@ -160,8 +162,7 @@ ModelImporter:
     - name: mixamorig:RightEye_end
       parentName: mixamorig:RightEye
       position: {x: 7.532662e-10, y: 0.15781409, z: 7.069147e-10}
-      rotation: {x: -0.0000000074505797, y: 0.0000000011519602, z: -7.923836e-10,
-        w: 1}
+      rotation: {x: -0.0000000074505797, y: 0.0000000011519602, z: -7.923836e-10, w: 1}
       scale: {x: 1, y: 0.9999998, z: 1}
     - name: mixamorig:RightEye_end_end
       parentName: mixamorig:RightEye_end
@@ -256,8 +257,7 @@ ModelImporter:
     - name: mixamorig:LeftHandMiddle3_end
       parentName: mixamorig:LeftHandMiddle3
       position: {x: -0.000000013216958, y: 0.06127809, z: -0.0000000011002703}
-      rotation: {x: -0.000000031206344, y: 0.000000067062025, z: 0.0000025187896,
-        w: 1}
+      rotation: {x: -0.000000031206344, y: 0.000000067062025, z: 0.0000025187896, w: 1}
       scale: {x: 0.99999994, y: 0.9999997, z: 1}
     - name: mixamorig:LeftHandMiddle3_end_end
       parentName: mixamorig:LeftHandMiddle3_end
@@ -377,8 +377,7 @@ ModelImporter:
     - name: mixamorig:RightHandRing3_end
       parentName: mixamorig:RightHandRing3
       position: {x: -0.000000012463715, y: 0.07255609, z: 0.0000000034930507}
-      rotation: {x: 0.0000000037396144, y: -0.000000026673202, z: 0.0000020504838,
-        w: 1}
+      rotation: {x: 0.0000000037396144, y: -0.000000026673202, z: 0.0000020504838, w: 1}
       scale: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
     - name: mixamorig:RightHandRing3_end_end
       parentName: mixamorig:RightHandRing3_end
@@ -403,8 +402,7 @@ ModelImporter:
     - name: mixamorig:RightHandMiddle3_end
       parentName: mixamorig:RightHandMiddle3
       position: {x: 0.000000114142274, y: 0.074689016, z: -1.414446e-10}
-      rotation: {x: -0.00000004469074, y: -0.000000027657727, z: -0.0000011198207,
-        w: 1}
+      rotation: {x: -0.00000004469074, y: -0.000000027657727, z: -0.0000011198207, w: 1}
       scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
     - name: mixamorig:RightHandMiddle3_end_end
       parentName: mixamorig:RightHandMiddle3_end
@@ -540,9 +538,10 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
